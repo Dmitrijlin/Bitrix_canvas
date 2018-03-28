@@ -1,0 +1,112 @@
+body {
+    background: white;
+}
+
+.Toolbar {
+    float: left;
+    font-family: 'Trebuchet MS'; 
+    font-size: 14px;
+    font-variant: small-caps;
+    text-align: center;
+    background: #F2F7FE;
+    padding: 10px 15px 3px 10px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    border: 1px solid #7B899B;
+    height: 120px; 
+    width: 200px;
+}
+
+.Toolbar button {
+    padding: 6px;
+    margin: 7px 2px;
+    font-variant: normal;
+    font-size: 12px;
+}
+
+.Toolbar input {
+    border-radius: 3px;
+    border: 1px solid gray;
+    width: 200px;
+    text-align: center;    
+}
+
+
+.Container {
+    clear: both;
+}
+
+.CanvasContainer {
+    width:50%;
+    float: left;
+}
+
+.ViewContainer {
+    width:49%;
+    height: 300px;
+    border: 1px solid;
+    float: left;
+    margin-left: 10px;
+    overflow: auto;
+}
+
+.ViewContainer .ListPicture {
+    padding-left: 20px;    
+}
+
+.ViewContainer .ListPicture a {
+    border: 1px solid;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    margin: 5px 0;
+    width: 150px;
+    text-align:center;
+}
+
+.ViewContainer .ListPicture a:hover {
+    background-color: black;
+    color:white; 
+}
+
+.ViewContainer .ListPicture input {
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    width: 200px;
+    text-align: center;
+}
+
+.err {
+    border: 2px solid red !important;
+}
+
+canvas {
+    border: 1px solid #7B899B;
+    cursor: crosshair;
+}
+
+img {
+    padding: 2px;
+    border: 2px solid #F2F7FE;
+}
+
+img:hover {
+    border: 2px groove #E4F0FE;
+    background: white;
+}
+
+
+img.Selected {
+    border: 2px groove #E4F0FE;
+}
+
+#savedCopyContainer {
+    display: none;
+}
+
+#savedCopyContainer img {
+    width: 250px;
+    height: 150px;
+}
